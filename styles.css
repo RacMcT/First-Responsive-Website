@@ -101,7 +101,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  font-size: 30px;
+  font-size: 18px;
   margin-block-end: 1em;
 }
 
@@ -111,7 +111,7 @@ textarea{
 }
 
 #submit {
-  font-size: 30px;
+  font-size: 18px;
   background-color: rgb(197, 197, 197);
   border-radius: 12px;
   width: 250px;
@@ -121,7 +121,7 @@ textarea{
 }
 
 h2{
-  font-size: 20px;
+  font-size: 30px;
   color:#0f0f0f;
   background-image: linear-gradient(to bottom, rgb(133, 201, 233), rgb(179, 207, 216));
   text-align: center;
@@ -129,7 +129,7 @@ h2{
 }
 
 p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .blog-image{
@@ -149,7 +149,7 @@ p{
 }
 
 .button{
-  font-size: 30px;
+  font-size: 18px;
   background-color: rgb(197, 197, 197);
   border-radius: 12px;
   width: 300px;
@@ -176,7 +176,7 @@ nav > a {
   height: 10%;
   width: 15%;
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 25px;
   background-image: linear-gradient(to bottom, rgb(133, 201, 233), rgb(179, 207, 216));
   padding: 10px;
