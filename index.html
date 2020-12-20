@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reset.css">
   <script src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
 </head>
 <Body>
   <header>
@@ -76,33 +77,36 @@
   </header>
 
   <main>
-    <section class= "latest-news">
-      <h3>Social Media</h3>
-      <p>Twitter - @sarahjewlery</p>
-      <p>Facebook - fb.com/sarahjewlery</p>
-      <p>Instagram - @sarahjewlery</p>
+    <section class="main-cont">
+      <card class= "latest-news">
+        <h2>Social Media</h2>
+        <p>Twitter - @sarahjewlery</p>
+        <p>Facebook - fb.com/sarahjewlery</p>
+        <p>Instagram - @sarahjewlery</p>
+      </card>
+  
+      <card class= "blog">
+        <h2>Blog</h2>
+        <img src="jewelry site photos/jewellery-509342_1920.jpg" class="blog-image">
+        <button type="button" class="button"> See Latest Post </button>
+      </card>
+  
+      <card class="contact">
+        <h2>Contact Us</h2>
+        <form> 
+          <label>Name</label>
+            <textarea type="text" rows="1"></textarea>
+          <label>Message</label>
+            <textarea type="text" rows="5"></textarea>
+          <input id="submit" class="btn-submit" type="submit">
+        </form>
+      </card>
     </section>
-
-    <section class= "blog">
-      <h3>Blog</h3>
-      <img src="jewelry site photos/gold-665722_1920.jpg" class="blog-image">
-    </section>
-
-    <section class="contact">
-      <h3>Contact Us</h3>
-      <form> <label>name</label>
-        <input id="Name" type="text"  autocomplete="name">
-        <label>message</label>
-        <textarea type="text" rows="5"></textarea>
-        <input id="submit" class="btn-submit" type="submit">
-      </form>
-    </section>
+    
   </main>
 
   <footer>
-    <a></a>
-    <a></a>
-    <a></a>
+    <p>Website Designed and Created by: Rachel McTavish 2020</p>
   </footer>
 </Body>
 </html>
